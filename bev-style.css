@@ -1,0 +1,77 @@
+#column_selector {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 100%; /* Adjust as needed */
+}
+
+#column_selector h3 {
+  margin-top: 0;
+}
+
+#column_options_container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  padding: 0 0;
+  border: 1px solid #ccc;
+}
+
+#column_options {
+  display: inline-block;
+}
+
+.column-option {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#verification_progress, #download_link {
+  margin-top: 20px;
+}
+table td, table th {
+  border-bottom: 1px solid #eee;
+  padding: 5px 10px;
+  border-right: 1px solid #eee;
+}
+
+.view-modal .w100{display: block; width: 100%;}
+.view-modal .w50{display: inline-block; vertical-align: top; width: 45%;}
+.view-modal .w60{display: inline-block; vertical-align: top; width: 58%;}
+.view-modal .w40{display: inline-block; vertical-align: top; width: 38%;}
+.view-modal .p1{padding: 5px;}
+
+.view-modal {
+  position: fixed;
+  background: #3535352e;
+  z-index: 99;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  
+}
+.view-modal .modal-header h2
+{
+  display:inline-block;width:70%;padding: 0;margin: 15px 0;
+}
+.view-modal .view-modal-wrapper {
+  margin: 105px 140px;
+    background: #FFF;
+    width: auto;
+    padding: 0 31px;
+    max-height: 80vh;
+    overflow: hidden;
+}
+.view-modal .close-view-modal {
+  margin-top: 30px;
+  float: right;
+}
+div.dt-container select.dt-input{
+  width: auto !important;
+}
+#column_options_container table th, #column_options_container table td {
+	text-align: left;
+}
